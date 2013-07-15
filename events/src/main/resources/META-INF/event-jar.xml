@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE event-jar PUBLIC "-//Sun Microsystems, Inc.//DTD JAIN SLEE Event 1.1//EN"
+                           "http://java.sun.com/dtd/slee-event-jar_1_1.dtd">
+<event-jar>
+
+	<library-ref>
+		<library-name>mrcp-library</library-name>
+		<library-vendor>org.cloudzfy</library-vendor>
+		<library-version>1.0</library-version>
+	</library-ref>
+        
+    <event-definition>
+    	<description/>
+        <event-type-name>org.cloudzfy.mrcp.Request.INTERPRETATION_COMPLETE</event-type-name>
+        <event-type-vendor>org.cloudzfy</event-type-vendor>
+        <event-type-version>1.0</event-type-version>
+        <event-class-name>org.cloudzfy.slee.resource.mrcp.event.MrcpRequestEvent</event-class-name>
+    </event-definition>
+    
+    <event-definition>
+        <description/>
+        <event-type-name>org.cloudzfy.mrcp.Request.RECOGNITION_COMPLETE</event-type-name>
+        <event-type-vendor>org.cloudzfy</event-type-vendor>
+        <event-type-version>1.0</event-type-version>
+        <event-class-name>org.cloudzfy.slee.resource.mrcp.event.MrcpRequestEvent</event-class-name>
+    </event-definition>
+    
+    <event-definition>
+        <description/>
+        <event-type-name>org.cloudzfy.mrcp.Request.RECORD_COMPLETE</event-type-name>
+        <event-type-vendor>org.cloudzfy</event-type-vendor>
+        <event-type-version>1.0</event-type-version>
+        <event-class-name>org.cloudzfy.slee.resource.mrcp.event.MrcpRequestEvent</event-class-name>
+    </event-definition>
+    
+    <event-definition>
+        <description/>
+        <event-type-name>org.cloudzfy.mrcp.Request.SPEAK_COMPLETE</event-type-name>
+        <event-type-vendor>org.cloudzfy</event-type-vendor>
+        <event-type-version>1.0</event-type-version>
+        <event-class-name>org.cloudzfy.slee.resource.mrcp.event.MrcpRequestEvent</event-class-name>
+    </event-definition>
+    
+    <event-definition>
+        <description/>
+        <event-type-name>org.cloudzfy.mrcp.Request.SPEECH_MARKER</event-type-name>
+        <event-type-vendor>org.cloudzfy</event-type-vendor>
+        <event-type-version>1.0</event-type-version>
+        <event-class-name>org.cloudzfy.slee.resource.mrcp.event.MrcpRequestEvent</event-class-name>
+    </event-definition>
+    
+    <event-definition>
+        <description/>
+        <event-type-name>org.cloudzfy.mrcp.Request.START_OF_INPUT</event-type-name>
+        <event-type-vendor>org.cloudzfy</event-type-vendor>
+        <event-type-version>1.0</event-type-version>
+        <event-class-name>org.cloudzfy.slee.resource.mrcp.event.MrcpRequestEvent</event-class-name>
+    </event-definition>
+    
+    <event-definition>
+        <description/>
+        <event-type-name>org.cloudzfy.mrcp.Request.VERIFICATION_COMPLETE</event-type-name>
+        <event-type-vendor>org.cloudzfy</event-type-vendor>
+        <event-type-version>1.0</event-type-version>
+        <event-class-name>org.cloudzfy.slee.resource.mrcp.event.MrcpRequestEvent</event-class-name>
+    </event-definition>
+    
+    <event-definition>
+        <description/>
+        <event-type-name>org.cloudzfy.mrcp.Response.SUCCESS</event-type-name>
+        <event-type-vendor>org.cloudzfy</event-type-vendor>
+        <event-type-version>1.0</event-type-version>
+        <event-class-name>org.cloudzfy.slee.resource.mrcp.event.MrcpResponseEvent</event-class-name>
+    </event-definition>
+    
+    <event-definition>
+        <description/>
+        <event-type-name>org.cloudzfy.mrcp.Response.CLIENT_ERROR</event-type-name>
+        <event-type-vendor>org.cloudzfy</event-type-vendor>
+        <event-type-version>1.0</event-type-version>
+        <event-class-name>org.cloudzfy.slee.resource.mrcp.event.MrcpResponseEvent</event-class-name>
+    </event-definition>
+    
+    <event-definition>
+        <description/>
+        <event-type-name>org.cloudzfy.mrcp.Response.SERVER_ERROR</event-type-name>
+        <event-type-vendor>org.cloudzfy</event-type-vendor>
+        <event-type-version>1.0</event-type-version>
+        <event-class-name>org.cloudzfy.slee.resource.mrcp.event.MrcpResponseEvent</event-class-name>
+    </event-definition>
+    
+</event-jar>

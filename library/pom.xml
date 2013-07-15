@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.cloudzfy</groupId>
+    <artifactId>mrcp-parent</artifactId>
+    <version>1.0</version>
+  </parent>
+  <artifactId>mrcp-library</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.mrcp4j</groupId>
+      <artifactId>mrcp4j</artifactId>
+      <version>0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.14</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.mobicents.tools</groupId>
+        <artifactId>maven-library-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>copy-dependencies</goal>
+              <goal>generate-descriptor</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <library-name>mrcp-library</library-name>
+          <library-vendor>org.cloudzfy</library-vendor>
+          <library-version>1.0</library-version>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
