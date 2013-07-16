@@ -1,6 +1,7 @@
 =======================================================
 Readme for mrcp-ra
 An Implementation of MRCP Resource Adaptor of JAIN SLEE
+Copyright (C) 2013 Cloudzfy. All Rights Reserved.
 =======================================================
 
 
